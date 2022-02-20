@@ -1,0 +1,58 @@
+<!-- A HTML CODE FOR MAKING FORMS-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body style="background-color:antiquewhite">
+   <!-- AS IT IS A SURVEY FORM, WE WILL need to submit the dtails, hence we use form-->
+   
+   <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><center>Student Interest Survey Form</center><h1>
+   <!-- we can give absolute url or relative url , and specify POST or GET method --> 
+   <form>
+
+      <div style="font-size:large;" >
+         Enter your name: <input type="text" name="myname" size=40 maxlength=40 >
+      </div> <br>
+
+      <div style="font-size:large;" >
+         Enter your email: <input type="text" name="myemail" size=40 maxlength=40 >
+      </div> <br>
+
+      <div style="font-size:large;" >
+         Enter your age: <input type="text" name="myemail" size=40 maxlength=40  >
+      </div><br>
+
+      <div style="font-size: large;" >
+       <p>  Do you like programming? </p>
+         <!-- radio makes us to choose one option among many-->
+         Yes <input type="radio" name="myoption">  
+         No <input type="radio" name="myoption">  
+         Maybe <input type="radio" name="myoption"> 
+      </div>
+
+      <div style="font-size: large;" >
+        <p> Which programming languages you know? </p>
+        <input  type="checkbox" name="known"> C       <br>
+        <input  type="checkbox" name="known"> C++     <br>    
+        <input  type="checkbox" name="known"> C#       <br>
+        <input  type="checkbox" name="known"> Java      <br>
+        <input  type="checkbox" name="known"> Python      <br>
+        <input  type="checkbox" name="known"> JavaScript   <br>
+        <input  type="checkbox" name="known"> React         <br>
+        <input  type="checkbox" name="known"> Others      <br>
+      </div> <br>
+
+      <div style="font-size: large;">
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+      </div>
+      
+      <div>
+         <input type="submit" name="submit now">
+         <input type="reset" name="reset now">
+      </div>
+          
+   </form>   
+</body>
+
+</html>
